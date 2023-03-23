@@ -1,6 +1,7 @@
 import * as React from 'react'
+import Spline from '@splinetool/react-spline'
 import './../styles/reset.scss'
-import'./../styles/pages/index/preloader.scss'
+import './../styles/pages/index/preloader.scss'
 
 const IndexPage = () => {
   return (
@@ -19,8 +20,8 @@ const IndexPage = () => {
             <rect width="100%" height="100%" />
           </svg>
         </div>
-        <div className="soon">
-          <h2>Coming soon.</h2>
+        <div className="element3d">
+          <Spline scene="https://prod.spline.design/wPoczcAy8SFB2b8c/scene.splinecode" />
         </div>
       </div>
     </main>
